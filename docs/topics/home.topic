@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+SPDX-FileCopyrightText: 2010-2026 JetBrains s.r.o. and Kotlin Programming
+Language contributors.
+Kotlin and the Kotlin logo are trademarks or registered trademarks of The Kotlin
+Foundation.
+
+SPDX-License-Identifier: Apache-2.0
+Documentation licensed under the Apache License, Version 2.0.
+The original work was translated from English into Brazilian Portuguese.
+https://github.com/docsdevbr/kotlin-docs-pt-br/blob/-/LICENSES/Apache-2.0.txt
+
+source_url: https://github.com/JetBrains/kotlin-web-site/blob/master/docs/topics/home.topic
+source_revision: 1984231db5e9bef8a00beaa769857b21b8f407af
+translation_status: ready
+-->
+<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
+<topic
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+  title="Documentação do Kotlin" id="home">
+  <section-starting-page>
+    <title>Documentação do Kotlin</title>
+    <description>
+      Versão estável mais recente: %kotlinVersion%
+    </description>
+    <spotlight>
+      <a href="getting-started.md"
+         summary="Crie seu primeiro projeto Kotlin para uma plataforma de sua escolha em uma IDE: IntelliJ IDEA ou Android Studio"
+         type="start">Comece com o Kotlin
+      </a>
+      <a href="https://play.kotlinlang.org/"
+         summary="Escreva, edite, execute e compartilhe código Kotlin diretamente no navegador"
+         type="install">Experimente o Kotlin online
+      </a>
+    </spotlight>
+    <primary>
+      <title>Primeiros passos</title>
+      <a href="basic-syntax.md"
+         summary="Uma breve introdução à sintaxe do Kotlin: palavras-chave, operadores, estrutura do programa">
+        Sintaxe básica</a>
+      <a href="kotlin-tour-welcome.md" summary="Explore os fundamentos da linguagem de programação Kotlin">
+        Tour pelo Kotlin</a>
+    </primary>
+    <secondary>
+      <title>Kotlin Multiplatform</title>
+      <a href="https://kotlinlang.org/docs/multiplatform/quickstart.html" summary="Configure seu primeiro projeto KMP">
+        Guia de início rápido do Kotlin Multiplatform
+      </a>
+      <a href="https://kotlinlang.org/docs/multiplatform/kmp-overview.html"
+         summary="Saiba mais sobre os recursos e benefícios do Kotlin Multiplatform">
+        O que é o Kotlin Multiplatform
+      </a>
+      <a href="https://kotlinlang.org/docs/multiplatform/compose-multiplatform-create-first-app.html"
+         summary="Crie um aplicativo com interface compartilhada entre Android, iOS e desktop usando o Compose Multiplatform">
+        Compartilhe lógica e interface com o Compose Multiplatform
+      </a>
+      <a href="https://kotlinlang.org/docs/multiplatform/multiplatform-create-first-app.html"
+         summary="Use o Kotlin Multiplatform para criar um aplicativo móvel que funciona tanto no Android quanto no iOS">
+        Compartilhe a lógica, mas mantenha a interface nativa
+      </a>
+    </secondary>
+    <misc>
+      <cards narrow="false">
+        <title>Tópicos em destaque</title>
+        <a href="whatsnew24.md"
+           summary="Novos recursos experimentais e estáveis, melhorias de desempenho e correções de bugs">
+          O que há de novo no Kotlin 2.4.0
+        </a>
+        <a href="https://kotlinlang.org/api/latest/jvm/stdlib/"
+           summary="Recursos essenciais para o trabalho diário com Kotlin: E/S, arquivos, threads, coleções e muito mais">
+          Referência da API da biblioteca padrão
+        </a>
+        <a href="gradle.md"
+           summary="Saiba mais sobre o Gradle como ferramenta de construção para automatizar e gerenciar a construção de seus projetos">
+          Gradle
+        </a>
+        <a href="maven.md"
+           summary="Saiba mais sobre o Maven como ferramenta de construção para automatizar e gerenciar a construção de seus projetos">
+          Maven
+        </a>
+        <a href="collections-overview.md"
+           summary="Coleções: listas, conjuntos e mapas">
+          Coleções
+        </a>
+        <a href="coroutines-overview.md"
+           summary="Concorrência: corrotinas, fluxos, canais">
+          Corrotinas
+        </a>
+      </cards>
+    </misc>
+  </section-starting-page>
+</topic>
