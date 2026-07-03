@@ -22,12 +22,12 @@ translation_status: ready
   <section-starting-page>
     <title>Documentação do Kotlin</title>
     <description>
-      Versão estável mais recente: %kotlinVersion%
+      Última versão estável: %kotlinVersion%
     </description>
     <spotlight>
       <a href="getting-started.md"
          summary="Crie seu primeiro projeto Kotlin para uma plataforma de sua escolha em uma IDE: IntelliJ IDEA ou Android Studio"
-         type="start">Comece com o Kotlin
+         type="start">Comece a usar o Kotlin
       </a>
       <a href="https://play.kotlinlang.org/"
          summary="Escreva, edite, execute e compartilhe código Kotlin diretamente no navegador"
